@@ -1,11 +1,11 @@
 body{
-	background-image: url("images/Bg.jpg");
+	background-image: url("Bg.jpg");
 	/* background-repeat: no-repeat; */
 }
 
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: white;
 	position:sticky;
 	top: 0;
     width: 100%;
@@ -23,7 +23,7 @@ body{
   
   .topnav a:hover {
 	background-color: white;
-	color: black;
+	color:white;
   }
 
   .topnav-right {
@@ -50,7 +50,7 @@ body{
   }
   #menu_list{
 	background-color:#f5c71a;
-	color:black; 
+	color:white; 
 	width: 200px;
 	border: none;
   }
@@ -81,7 +81,7 @@ body{
 	height:180px;
 	border: none;
 	background-color:#e2062c;
-	color:black;
+	color:pink;
 	font-size: 25px;
 	font-family: cursive;
   }
@@ -103,7 +103,7 @@ body{
     transition: text-indent 0.4s 0.4s ease; 
     text-indent: -100%;
 	opacity: 1;
-	color: white;
+	color: black;
  }
 
 ol.menulist>li
@@ -129,4 +129,8 @@ ol.menulist>li
 .card img{
 	width:100px;
 	height: 80px;
+}
+
+#display_menu{
+color: white;
 }
